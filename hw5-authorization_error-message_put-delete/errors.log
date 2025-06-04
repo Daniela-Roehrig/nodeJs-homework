@@ -1,0 +1,11 @@
+[2025-06-04T14:23:23.608Z] Error: error from express
+    at file:///C:/Users/User/IT%20Career%20Hub/dritter%20Teil/NODE-JS/NODE-JS-HW/hw5-header-authorization/src/errorMessage.js:11:11
+    at Layer.handleRequest (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\index.js:295:15
+    at processParams (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\index.js:582:12)
+    at next (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\router\index.js:291:5)
+    at cors (C:\Users\User\IT Career Hub\dritter Teil\NODE-JS\NODE-JS-HW\hw5-header-authorization\node_modules\cors\lib\index.js:188:7)

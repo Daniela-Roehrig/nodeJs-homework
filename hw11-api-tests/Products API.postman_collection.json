@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "d2ca7cf2-296b-4737-8b84-662beb819ab0",
+		"name": "Products API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43557330",
+		"_collection_link": "https://danielar-3034392.postman.co/workspace/DanielaR's-Workspace~fa1bf126-7101-4519-88f8-a0938da41b34/collection/43557330-d2ca7cf2-296b-4737-8b84-662beb819ab0?action=share&source=collection_link&creator=43557330"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"Product Four\",\r\n    \"price\": 15.99\r\n\r\n}"
+				},
+				"url": "http://localhost:3000/products"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/products/2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/products/2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/products",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"Product Four\",\r\n    \"price\": 15.99\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/products"
+			},
+			"response": []
+		}
+	]
+}

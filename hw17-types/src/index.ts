@@ -1,5 +1,3 @@
-//------------- Nr.1 --------------//
-
 function calculateTotal(
   price: number,
   quantity: number,
@@ -13,7 +11,6 @@ const total = calculateTotal(10, 2, 0.3);
 console.log("Total:", total);  
 
 
-//------------- Nr.2 --------------//
 
 let id: string | number;
 
@@ -27,7 +24,8 @@ function displayId(id: string | number): void {
 
 displayId("daniela");   
 displayId(7);      
-//------------- Nr.3 --------------//
+
+
 
 type OrderStatus = "pending" | "shipped" | "delivered";
 
@@ -57,7 +55,6 @@ console.log(shippedOrders);
 console.log(deliveredOrders);
 
 
-//------------- Nr.4 --------------//
 
 type ProductInfo = [string, number, number];
 

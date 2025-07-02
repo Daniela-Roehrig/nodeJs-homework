@@ -1,3 +1,5 @@
+//------------- Nr.1 --------------//
+
 function calculateTotal(
   price: number,
   quantity: number,
@@ -11,21 +13,20 @@ const total = calculateTotal(10, 2, 0.3);
 console.log("Total:", total);  
 
 
+//------------- Nr.2 --------------//
 
-let id: string | number;
-
-function displayId(id: string | number): void {
+const displayId = (id: string | number): void => {
   if (typeof id === "string") {
     console.log(`ID: ${id.toUpperCase()}`);
   } else {
     console.log(`ID: ${id * 10}`);
   }
-}
+};
 
-displayId("daniela");   
-displayId(7);      
+displayId("daniela");
+displayId(7);
 
-
+//------------- Nr.3 --------------//
 
 type OrderStatus = "pending" | "shipped" | "delivered";
 
@@ -42,7 +43,7 @@ const orders: Order[] = [
   { orderId: "4D", amount: 180, status: "pending" },
 ];
 
-function filterOrdersByStatus(orders: Order[], status: OrderStatus): Order[] {
+const filterOrdersByStatus = (orders: Order[], status: OrderStatus): Order[] =>{
   return orders.filter((order) => order.status === status);
 }
 
@@ -55,13 +56,14 @@ console.log(shippedOrders);
 console.log(deliveredOrders);
 
 
+//------------- Nr.4 --------------//
 
-type ProductInfo = [string, number, number];
+type ProductInfo = [productName: string, price: number, quantity: number];
 
-function updateStock(
+const updateStock =(
   inventory: { [productName: string]: number },
   productInfo: ProductInfo
-): { [productName: string]: number } {
+): { [productName: string]: number } => {
   const [name, price, quantity] = productInfo;
   inventory[name] = (inventory[name] || 0) + quantity;
   return inventory;
